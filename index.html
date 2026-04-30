@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Capítulo 1</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background: radial-gradient(circle at top,#0a1f3f,#020c1b);
+    color:white;
+}
+
+/* CONTENEDOR */
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:30px;
+}
+
+/* TITULO */
+.titulo{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.titulo h1{
+    font-size:40px;
+    color:#f4c430;
+}
+
+.titulo p{
+    color:#ccc;
+    margin-top:10px;
+}
+
+/* PORTADA */
+.portada{
+    text-align:center;
+    margin:30px 0;
+}
+
+.portada img{
+    width:100%;
+    max-height:500px;
+    object-fit:cover;
+    border-radius:20px;
+    box-shadow:0 0 25px rgba(0,0,0,0.6);
+}
+
+/* PAGINAS */
+.paginas{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.pagina img{
+    width:100%;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.5);
+    transition:0.3s;
+}
+
+.pagina img:hover{
+    transform:scale(1.01);
+}
+
+/* BOTON VOLVER */
+.btn{
+    margin-top:30px;
+    display:block;
+    text-align:center;
+}
+
+.btn a{
+    background:#3c6dd8;
+    padding:12px 25px;
+    border-radius:20px;
+    color:white;
+    text-decoration:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- TITULO -->
+    <div class="titulo">
+        <h1>CAPÍTULO V</h1>
+        <h2>El Brillo de Mantequilla y el Misterio de Super JJ</h2>
+
+    </div>
+
+    <!-- PORTADA -->
+    <div class="portada">
+        <!-- CAMBIAR ESTA IMAGEN -->
+        <img src="img/portada5.jpg">
+    </div><br><br><br><br><br>
+
+    <!-- PAGINAS -->
+    <div class="paginas" id="paginas">
+      <img src="img/cap5_1.jpg" alt="">
+      <img src="img/cap5_2.jpg" alt="">
+      <img src="img/cap5_3.jpg" alt="">
+      <img src="img/cap5_4.jpg" alt="">
+      <img src="img/cap5_5.jpg" alt="">
+      <img src="img/cap5_6.jpg" alt="">
+      <img src="img/cap5_7.jpg" alt="">
+      <img src="img/cap5_8.jpg" alt="">
+      <img src="img/cap5_9.jpg" alt="">
+      <img src="img/cap5_10.jpg" alt="">
+    </div>
+
+
+    <div class="btn">
+        <a href="https://dvskked.github.io/camiloaventura-6">Siguiente capitulo</a>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
